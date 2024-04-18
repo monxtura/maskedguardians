@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+body {
+    background-color: #d1c1b3;
+    font-family: "Poppins", sans-serif;
+    background: #d1c1b3 url(images/raccoonshadow.png) no-repeat center 30% fixed;
+}
+
+h4 {
+    text-wrap: balance;
+    font-size: 26px;
+    text-align: center;
+}
+
+
+h3 {
+  font-family: "Fondamento", sans-serif;
+  float: left;
+  margin-top: 0;
+  padding: 1em;
+  text-align: center;
+  text-shadow: .05em .05em .05em gray;
+  font-size: 30px;
+}
+
+h2 {
+    text-shadow: .05em .05em .05em gray;
+    font-family: "Fondamento", sans-serif;
+    text-wrap: balance;
+    font-size: 29px;
+    text-align: center;
+}
+
+h1 {
+  font-size: large;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+
+strong {
+    font-style: italic;
+}
+
+.img {
+    float: left;
+}
+
+.section {
+    background-color: #2f2824;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 80%;
+    margin: 5rem auto 0 auto;
+    border: 5px solid black;
+}
+.section img {
+    height: 350px;
+}
+
+.section h1 {
+    margin: 0;
+    color: #d1c1b3;
+    font-family: "Lato", sans-serif;
+}
+
+.section p {
+    margin-right: 15px;
+    color: #d1c1b3;
+}
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #2f2824;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 17px 17px;
+    text-decoration: none;
+    font-size: 15px;
+    
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #d1c1b3;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #d1c1b3;
+    border: 2px solid black;
+  }
+
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2f2824;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+.desc {
+    padding: 17px;
+    text-align: center;
+  }
+  
+a:link {
+    color: #9d816c;
+}
+a:visited {
+    color: #9d816c;
+}
+
+a:focus, a:hover {
+    color: #9d816c;
+    
+}
+
+footer {
+    border-top: 1.5px solid black;
+    text-align: center;
+    color: black;
+}

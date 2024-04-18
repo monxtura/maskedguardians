@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+body{
+    background: #d1c1b3 url(images/raccoonshadow.png) no-repeat center 30% fixed;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+h3 {
+    font-family: "Fondamento", sans-serif;
+    float: left;
+    margin-top: 0;
+    padding: 1em;
+    text-align: center;
+    text-shadow: .05em .05em .05em gray;
+    font-size: 30px;
+  }
+  
+  h2 {
+    text-shadow: .05em .05em .05em gray;
+    font-family: "Fondamento", sans-serif;
+    font-size: 29px;
+  }
+
+  h1 {
+    font-size: large;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+  }
+
+  strong {
+    font-style: italic;
+}
+
+header {
+  margin-bottom: 5%;
+  align-items: center;
+}
+
+.img {
+    float: left;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #2f2824;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 17px 17px;
+    text-decoration: none;
+    font-size: 15px;
+    
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #d1c1b3;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #d1c1b3;
+    border: 2px solid black;
+  }
+
+a:link {
+    color: #9d816c;
+}
+a:visited {
+    color: #9d816c;
+}
+
+a:focus, a:hover {
+    color: #9d816c;
+    
+}
+
+footer {
+    border-top: 1.5px solid black;
+    color: black;
+    text-align: center;
+}
+
+
+table {
+  border-collapse: collapse;
+  background-color: #605041;
+  text-align: center;
+  vertical-align: middle;
+  padding: 8px;
+  width: 100%;
+  font-size: 18px;
+  color: #d1c1b3;
+  border: solid black;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 2px solid black;
+  font-style: italic;
+}
+
+tr:hover {
+  background-color: #2f2824;
+}
+
+ul {
+  list-style-type: none;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.price {
+  font-style: italic;
+  color:#443a34;
+}

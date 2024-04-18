@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+body {
+    background-color: #d1c1b3;
+    font-family: "Poppins", sans-serif;
+    background: #d1c1b3 url(images/raccoonshadow.png) no-repeat center 30% fixed;
+}
+
+
+
+h3 {
+  font-family: "Fondamento", sans-serif;
+  float: left;
+  margin-top: 0;
+  padding: 1em;
+  text-align: center;
+  text-shadow: .05em .05em .05em gray;
+  font-size: 30px;
+}
+
+h2 {
+  font-family: "Fondamento", sans-serif;
+  padding: 1em;
+  text-align: center;
+  text-shadow: .05em .05em .05em gray;
+  font-size: 29px;
+}
+
+h1 {
+  font-size: large;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+
+.img {
+    float: left;
+}
+
+p {
+    font-family: "Lato", sans-serif;
+    font-size: large;
+    
+}
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #2f2824;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 17px 17px;
+    text-decoration: none;
+    font-size: 15px;
+    
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #d1c1b3;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #d1c1b3;
+    border: 2px solid black;
+  }
+
+  
+a:link {
+    color: #9d816c;
+}
+a:visited {
+    color: #9d816c;
+}
+
+a:focus, a:hover {
+    color: #9d816c;
+    
+}
+
+footer {
+    border-top: 1.5px solid black;
+    text-align: center;
+    color: black;
+}
+
+legend {
+    background-color: #2f2824;
+    color: #d1c1b3;
+    padding: 3px 6px;
+  }
+
+fieldset {
+    background-color: #b7a18f;
+    border-color: black;
+    
+
+  }
+
+  strong {
+    font-style: italic;
+}
